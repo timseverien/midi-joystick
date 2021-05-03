@@ -1,7 +1,6 @@
-const { Command } = require('commander');
-
-const configure = require('./lib/commands/configure');
-const run = require('./lib/commands/run');
+import { Command } from 'commander';
+import configure from './lib/commands/configure';
+import run from './lib/commands/run';
 
 const program = new Command();
 
